@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Git Workflows</title>
+	<link rel="stylesheet" type="text/css" href="gitgraph.js/src/gitgraph.js"></link>
+	<script src="gitgraph.js/src/gitgraph.js"></script>
+</head>
+<body>
+	<canvas id="gitGraph"></canvas>
+	<script>
+	
+	var gitgraph = new GitGraph();
+	
+	var master = gitgraph.branch("master");
+	master.commit().commit();
+	var branch = master.branch("develop");
+	branch.commit();
+	master.commit().commit();
+	branch.commit().commit();
+	branch.merge(master);
+	
+	</script>
+</body>
+</html>
