@@ -1,0 +1,4 @@
+[submodule "gitgraph.js"]
+	path = gitgraph.js
+	url = https://github.com/nicoespeon/gitgraph.js.git
+	branch = master
