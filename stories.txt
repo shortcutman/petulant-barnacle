@@ -1,0 +1,23 @@
+As a developer
+I want to make changes to a repository
+So that I can implement a feature or bug fix
+
+As a developer
+I want to have my own version control environment
+So that my modifications can be isolated from other changes
+
+As a developer
+I want to build and test my changes
+So that I don't impact stability for other developers
+
+As a developer
+I want to show others my changes
+So that I can receive feedback about my implementation
+
+As a developer
+I want to make changes to an old version of a product or library
+So that I provide a bugfix to a customer
+
+As a developer
+I want a stable version of a library
+So that I can confidently release a product
